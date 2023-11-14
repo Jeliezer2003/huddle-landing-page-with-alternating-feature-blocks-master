@@ -5,6 +5,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+ width: fit-content;
+}
 
 .footer{
 
@@ -16,7 +19,7 @@
 }   
 .escala{
         background-color: white;
-        margin-left: 15px;
+        margin-left: 12px;
         height: 180px;
         width: 380px;
         border-radius: 15px;

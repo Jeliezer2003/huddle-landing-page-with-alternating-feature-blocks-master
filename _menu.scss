@@ -25,8 +25,7 @@
 
 
 .main-container{
-    margin: 0 auto;
-
+    
 }
 
 .header{
@@ -63,6 +62,7 @@
     background-image: url(/images/bg-hero-mobile.svg) ;
     background-color: hsl(193, 100%, 96%);
     
+    
 }
 .top-contenido{
     display: block;
@@ -86,6 +86,7 @@
   
 }
 .boton{
+    margin-left: 30px;
     width: 300px;
     height: 60px;
     border-radius: 30px ;
