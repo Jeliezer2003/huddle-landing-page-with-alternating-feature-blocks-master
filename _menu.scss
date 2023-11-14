@@ -1,0 +1,121 @@
+
+@mixin chart {
+    margin-top: 40px;
+    box-shadow: 0px 0px 3px #48529944; 
+    text-align: center;
+    padding: 30px;
+    margin-left: 14px;
+    width: 380px;
+    height: 480px;;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    img{
+        width: 220px;
+        height: 220px;
+        }
+   p{
+     margin-top: 25px;
+     color: hsl(208, 11%, 55%);
+       }
+        h4{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px;
+    }   
+}
+
+
+.main-container{
+    margin: 0 auto;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+   
+}
+.logo{
+    margin-top: 50px;
+    width: 130px;
+    height: 20px;
+}
+.try{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align:center;
+    padding-top: 6px;
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+    font-family: 'Poppins';
+    box-shadow: 0px 0px 3px #48529944; 
+    
+}
+.imagen{
+    margin: 30px 40px;
+    width: 80%;
+    height: 250px;
+    
+}
+.top{
+    background-image: url(/images/bg-hero-mobile.svg) ;
+    background-color: hsl(193, 100%, 96%);
+    
+}
+.top-contenido{
+    display: block;
+    
+   
+}
+.subtitle{
+    margin-top: 50px;
+    padding: 28px;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+  
+}
+.text{
+    line-height: 25px;
+    display: block;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+  
+}
+.boton{
+    width: 300px;
+    height: 60px;
+    border-radius: 30px ;
+    color: white;
+    font-size: 18px;
+    margin: 30px 52px;
+    text-align: center;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+}
+.boton:hover{
+    background-color:rgba(198, 13, 255, 0.836);
+}
+.medio{
+    padding-top: 50px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    
+}
+.text1{
+    display: block;
+    margin-top: 50px;
+}
+.grow{
+@include chart()
+}
+.flowing{
+@include chart()
+}
+.your{
+@include chart()
+}

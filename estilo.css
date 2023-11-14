@@ -1,0 +1,263 @@
+.main-container {
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 50px;
+  width: 130px;
+  height: 20px;
+}
+
+.try {
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 6px;
+  width: 150px;
+  height: 30px;
+  margin-top: 40px;
+  font-family: "Poppins";
+  box-shadow: 0px 0px 3px rgba(72, 82, 153, 0.2666666667);
+}
+
+.imagen {
+  margin: 30px 40px;
+  width: 80%;
+  height: 250px;
+}
+
+.top {
+  background-image: url(/images/bg-hero-mobile.svg);
+  background-color: hsl(193deg, 100%, 96%);
+}
+
+.top-contenido {
+  display: block;
+}
+
+.subtitle {
+  margin-top: 50px;
+  padding: 28px;
+  font-size: 27px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.text {
+  line-height: 25px;
+  display: block;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+}
+
+.boton {
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  margin: 30px 52px;
+  text-align: center;
+  background-color: hsl(322deg, 100%, 66%);
+  border: none;
+}
+
+.boton:hover {
+  background-color: rgba(198, 13, 255, 0.836);
+}
+
+.medio {
+  padding-top: 50px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.text1 {
+  display: block;
+  margin-top: 50px;
+}
+
+.grow {
+  margin-top: 40px;
+  box-shadow: 0px 0px 3px rgba(72, 82, 153, 0.2666666667);
+  text-align: center;
+  padding: 30px;
+  margin-left: 14px;
+  width: 380px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.grow img {
+  width: 220px;
+  height: 220px;
+}
+.grow p {
+  margin-top: 25px;
+  color: hsl(208deg, 11%, 55%);
+}
+.grow h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+}
+
+.flowing {
+  margin-top: 40px;
+  box-shadow: 0px 0px 3px rgba(72, 82, 153, 0.2666666667);
+  text-align: center;
+  padding: 30px;
+  margin-left: 14px;
+  width: 380px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.flowing img {
+  width: 220px;
+  height: 220px;
+}
+.flowing p {
+  margin-top: 25px;
+  color: hsl(208deg, 11%, 55%);
+}
+.flowing h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+}
+
+.your {
+  margin-top: 40px;
+  box-shadow: 0px 0px 3px rgba(72, 82, 153, 0.2666666667);
+  text-align: center;
+  padding: 30px;
+  margin-left: 14px;
+  width: 380px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.your img {
+  width: 220px;
+  height: 220px;
+}
+.your p {
+  margin-top: 25px;
+  color: hsl(208deg, 11%, 55%);
+}
+.your h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 250px;
+  color: white;
+  background-color: #001C24;
+}
+
+.escala {
+  background-color: white;
+  margin-left: 15px;
+  height: 180px;
+  width: 380px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px rgba(72, 82, 153, 0.2666666667);
+  z-index: 50;
+  margin-top: 150px;
+  position: absolute;
+}
+
+.escala-1 {
+  text-align: center;
+  padding-top: 40px;
+  z-index: 30;
+}
+.escala-1 button {
+  margin-top: 30px;
+  width: 230px;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  background-color: hsl(322deg, 100%, 66%);
+  border: none;
+  z-index: 30;
+}
+.escala-1 h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.rei img {
+  width: 180px;
+  height: 30px;
+  background-color: white;
+  margin-top: 150px;
+}
+
+.datos {
+  margin-left: 10px;
+  margin-top: 15px;
+  display: flex;
+  padding: 7px;
+}
+.datos img {
+  margin-top: 7px;
+  width: 20px;
+  height: 20px;
+}
+.datos p {
+  color: #F1F3F4;
+  font-size: 17px;
+  line-height: 30px;
+  padding-left: 7px;
+  padding-right: 10px;
+  margin-left: 20px;
+}
+
+.datos-1 {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.datos-1 ul li {
+  list-style: none;
+  padding-top: 15px;
+  color: hsl(200deg, 12%, 95%);
+}
+
+.end {
+  margin-top: 80px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.end img {
+  margin: 7px;
+  background-color: black;
+  border: 1px solid hsl(200deg, 12%, 95%);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.end p {
+  margin-top: 10px;
+  font-size: 15px;
+  padding: 15px;
+  color: hsl(200deg, 12%, 95%);
+}/*# sourceMappingURL=estilo.css.map */
