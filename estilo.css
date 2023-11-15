@@ -10,6 +10,12 @@
   width: 130px;
   height: 20px;
 }
+@media (1024px <= width) {
+  .logo {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+}
 
 .try {
   background-color: rgb(255, 255, 255);
@@ -22,11 +28,23 @@
   font-family: "Poppins";
   box-shadow: 0px 0px 3px rgba(72, 82, 153, 0.2666666667);
 }
+@media (1024px <= width) {
+  .try {
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+}
 
 .imagen {
   margin: 30px 40px;
   width: 80%;
   height: 250px;
+}
+@media (1024px <= width) {
+  .imagen {
+    width: 700px;
+    height: 500px;
+  }
 }
 
 .top {
@@ -37,6 +55,18 @@
 .top-contenido {
   display: block;
 }
+@media (1024px <= width) {
+  .top-contenido {
+    display: flex;
+  }
+}
+
+@media (1024px <= width) {
+  .build {
+    align-self: flex-start;
+    padding: 50px;
+  }
+}
 
 .subtitle {
   margin-top: 50px;
@@ -45,6 +75,15 @@
   line-height: 32px;
   text-align: center;
 }
+@media (1024px <= width) {
+  .subtitle {
+    text-align: start;
+    font-size: 35px;
+    line-height: 45px;
+    padding: 0px;
+    padding-top: 60px;
+  }
+}
 
 .text {
   line-height: 25px;
@@ -52,6 +91,15 @@
   font-size: 18px;
   padding: 20px;
   text-align: center;
+}
+@media (1024px <= width) {
+  .text {
+    text-align: start;
+    line-height: 23px;
+    font-size: 17px;
+    padding: 1px;
+    margin-top: 10px;
+  }
 }
 
 .boton {
@@ -66,9 +114,15 @@
   background-color: hsl(322deg, 100%, 66%);
   border: none;
 }
+@media (1024px <= width) {
+  .boton {
+    align-self: flex-end;
+    margin-left: 0;
+  }
+}
 
 .boton:hover {
-  background-color: rgba(198, 13, 255, 0.836);
+  background-color: rgb(255, 0, 149);
 }
 
 .medio {
@@ -77,13 +131,19 @@
   background-color: rgb(255, 255, 255);
   margin-top: 20px;
 }
-
-.text1 {
+.medio .text1 {
   display: block;
   margin-top: 50px;
 }
-
-.grow {
+@media (1024px <= width) {
+  .medio .text1 {
+    padding: 30px;
+    text-align: start;
+    width: 500px;
+    height: 200px;
+  }
+}
+.medio .grow {
   margin-top: 40px;
   box-shadow: 0px 0px 3px rgba(72, 82, 153, 0.2666666667);
   text-align: center;
@@ -94,20 +154,41 @@
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
 }
-.grow img {
+.medio .grow img {
   width: 220px;
   height: 220px;
 }
-.grow p {
+@media (1024px <= width) {
+  .medio .grow img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+  }
+}
+.medio .grow p {
   margin-top: 25px;
   color: hsl(208deg, 11%, 55%);
 }
-.grow h4 {
+@media (1024px <= width) {
+  .medio .grow p {
+    font-size: 18px;
+  }
+}
+.medio .grow h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 22px;
 }
-
-.flowing {
+@media (1024px <= width) {
+  .medio .grow {
+    justify-content: space-evenly;
+    display: flex;
+    width: 90%;
+    height: 400px;
+    margin: 40px auto;
+    box-shadow: 1px 1px 5px rgba(72, 82, 153, 0.3764705882);
+  }
+}
+.medio .flowing {
   margin-top: 40px;
   box-shadow: 0px 0px 3px rgba(72, 82, 153, 0.2666666667);
   text-align: center;
@@ -118,20 +199,41 @@
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
 }
-.flowing img {
+.medio .flowing img {
   width: 220px;
   height: 220px;
 }
-.flowing p {
+@media (1024px <= width) {
+  .medio .flowing img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+  }
+}
+.medio .flowing p {
   margin-top: 25px;
   color: hsl(208deg, 11%, 55%);
 }
-.flowing h4 {
+@media (1024px <= width) {
+  .medio .flowing p {
+    font-size: 18px;
+  }
+}
+.medio .flowing h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 22px;
 }
-
-.your {
+@media (1024px <= width) {
+  .medio .flowing {
+    justify-content: space-evenly;
+    display: flex;
+    width: 90%;
+    height: 400px;
+    margin: 40px auto;
+    box-shadow: 1px 1px 5px rgba(72, 82, 153, 0.3764705882);
+  }
+}
+.medio .your {
   margin-top: 40px;
   box-shadow: 0px 0px 3px rgba(72, 82, 153, 0.2666666667);
   text-align: center;
@@ -142,17 +244,39 @@
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
 }
-.your img {
+.medio .your img {
   width: 220px;
   height: 220px;
 }
-.your p {
+@media (1024px <= width) {
+  .medio .your img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+  }
+}
+.medio .your p {
   margin-top: 25px;
   color: hsl(208deg, 11%, 55%);
 }
-.your h4 {
+@media (1024px <= width) {
+  .medio .your p {
+    font-size: 18px;
+  }
+}
+.medio .your h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 22px;
+}
+@media (1024px <= width) {
+  .medio .your {
+    justify-content: space-evenly;
+    display: flex;
+    width: 90%;
+    height: 400px;
+    margin: 40px auto;
+    box-shadow: 1px 1px 5px rgba(72, 82, 153, 0.3764705882);
+  }
 }
 
 * {
@@ -165,6 +289,11 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+@media (1024px <= width) {
+  body {
+    width: 100vw;
+  }
 }
 
 .footer {

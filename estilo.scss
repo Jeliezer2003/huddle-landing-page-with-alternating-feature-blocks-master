@@ -7,6 +7,9 @@
 }
 body{
  width: fit-content;
+ @media (1024px <= width){    
+      width: 100vw;
+ }
 }
 
 .footer{

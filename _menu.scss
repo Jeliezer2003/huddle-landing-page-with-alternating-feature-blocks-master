@@ -12,20 +12,35 @@
     img{
         width: 220px;
         height: 220px;
+        @media (1024px <= width){
+            width: 400px;
+            height: 300px;
+            margin: auto;
+
+        }
         }
    p{
      margin-top: 25px;
      color: hsl(208, 11%, 55%);
+     @media (1024px <= width){
+        font-size: 18px;;
+       
+        
+
+    }
        }
         h4{
         font-family: 'Open Sans', sans-serif;
         font-size: 22px;
-    }   
-}
-
-
-.main-container{
-    
+    } 
+    @media (1024px <= width){
+        justify-content: space-evenly;
+        display:flex;
+         width: 90%;
+         height: 400px;
+         margin: 40px auto;
+         box-shadow: 1px 1px 5px #48529960; 
+      }  
 }
 
 .header{
@@ -33,12 +48,17 @@
     justify-content: space-between;
     padding: 20px;
     text-align: center;
+
    
 }
 .logo{
     margin-top: 50px;
     width: 130px;
     height: 20px;
+    @media (1024px <= width){
+     margin-top: 15px;
+     margin-left: 10px;  
+    }
 }
 .try{
     background-color: rgb(255, 255, 255);
@@ -50,12 +70,20 @@
     margin-top: 40px;
     font-family: 'Poppins';
     box-shadow: 0px 0px 3px #48529944; 
+    @media (1024px <= width){
+     margin-top: 15px;
+     margin-right: 10px;  
+    }
     
 }
 .imagen{
     margin: 30px 40px;
     width: 80%;
     height: 250px;
+    @media (1024px <= width){
+     width: 700px;
+     height: 500px;  
+    }
     
 }
 .top{
@@ -66,8 +94,18 @@
 }
 .top-contenido{
     display: block;
+    @media (1024px <= width){
+     display: flex;  
+    }
     
    
+}
+.build{
+    @media (1024px <= width){
+     align-self: flex-start;
+     padding: 50px;
+    
+    }
 }
 .subtitle{
     margin-top: 50px;
@@ -75,6 +113,15 @@
     font-size: 27px;
     line-height: 32px;
     text-align: center;
+    @media (1024px <= width){
+       text-align: start;
+       font-size: 35px;
+       line-height: 45px;
+       padding: 0px;
+       padding-top: 60px;
+       
+       
+    }
   
 }
 .text{
@@ -83,6 +130,15 @@
     font-size: 18px;
     padding: 20px;
     text-align: center;
+    @media (1024px <= width){
+       text-align: start;
+       line-height: 23px;
+       font-size: 17px;
+       padding: 1px;
+       margin-top: 10px; 
+       
+       
+    }
   
 }
 .boton{
@@ -96,20 +152,29 @@
     text-align: center;
     background-color: hsl(322, 100%, 66%);
     border: none;
+    @media (1024px <= width){
+       align-self: flex-end;
+       margin-left: 0;
+    }
 }
 .boton:hover{
-    background-color:rgba(198, 13, 255, 0.836);
+    background-color:rgb(255, 0, 149);
 }
 .medio{
     padding-top: 50px;
     display: block;
     background-color: rgb(255, 255, 255);
     margin-top: 20px;
-    
-}
+
 .text1{
     display: block;
     margin-top: 50px;
+    @media (1024px <= width){
+    padding: 30px;
+    text-align: start;
+    width: 500px;
+    height: 200px;
+    }
 }
 .grow{
 @include chart()
@@ -120,3 +185,8 @@
 .your{
 @include chart()
 }
+}
+
+
+
+   
