@@ -1,192 +1,181 @@
-
 @mixin chart {
-    margin-top: 40px;
-    box-shadow: 0px 0px 3px #48529944; 
-    text-align: center;
-    padding: 30px;
-    margin-left: 14px;
-    width: 380px;
-    height: 480px;;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    img{
-        width: 220px;
-        height: 220px;
-        @media (1024px <= width){
-            width: 400px;
-            height: 300px;
-            margin: auto;
-
-        }
-        }
-   p{
-     margin-top: 25px;
-     color: hsl(208, 11%, 55%);
-     @media (1024px <= width){
-        font-size: 18px;;
-       
-        
-
+  margin-top: 40px;
+  box-shadow: 0px 0px 3px #48529944;
+  text-align: center;
+  padding: 30px;
+  margin-left: 14px;
+  width: 380px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  img {
+    width: 220px;
+    height: 220px;
+    @media (1024px <= width) {
+      width: 400px;
+      height: 300px;
+      margin: auto;
     }
-       }
-        h4{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 22px;
-    } 
-    @media (1024px <= width){
-        justify-content: space-evenly;
-        display:flex;
-         width: 90%;
-         height: 400px;
-         margin: 40px auto;
-         box-shadow: 1px 1px 5px #48529960; 
-      }  
-}
-
-.header{
+  }
+  p {
+    margin-top: 25px;
+    color: hsl(208, 11%, 55%);
+    @media (1024px <= width) {
+      font-size: 18px;
+    }
+  }
+  h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+  }
+  @media (1024px <= width) {
+    justify-content: space-evenly;
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    text-align: center;
-
-   
+    width: 90%;
+    height: 400px;
+    margin: 40px auto;
+    box-shadow: 1px 1px 5px #48529960;
+  }
 }
-.logo{
-    margin-top: 50px;
-    width: 130px;
-    height: 20px;
-    @media (1024px <= width){
-     margin-top: 15px;
-     margin-left: 10px;  
-    }
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
 }
-.try{
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px;
-    text-align:center;
-    padding-top: 6px;
-    width: 150px;
-    height: 30px;
-    margin-top: 40px;
-    font-family: 'Poppins';
-    box-shadow: 0px 0px 3px #48529944; 
-    @media (1024px <= width){
-     margin-top: 15px;
-     margin-right: 10px;  
-    }
-    
+.logo {
+  margin-top: 50px;
+  width: 130px;
+  height: 20px;
+  @media (1024px <= width) {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
 }
-.imagen{
-    margin: 30px 40px;
-    width: 80%;
-    height: 250px;
-    @media (1024px <= width){
-     width: 700px;
-     height: 500px;  
-    }
-    
+.try {
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 6px;
+  width: 150px;
+  height: 30px;
+  margin-top: 40px;
+  font-family: "Poppins";
+  box-shadow: 0px 0px 3px #48529944;
+  @media (1024px <= width) {
+    margin-top: 15px;
+    margin-right: 10px;
+  }
 }
-.top{
-    background-image: url(/images/bg-hero-mobile.svg) ;
-    background-color: hsl(193, 100%, 96%);
-    
-    
+.imagen {
+  margin: 30px 40px;
+  width: 80%;
+  height: 250px;
+  @media (1024px <= width) {
+    width: 700px;
+    height: 500px;
+  }
 }
-.top-contenido{
-    display: block;
-    @media (1024px <= width){
-     display: flex;  
-    }
-    
-   
+.top {
+  background-image: url(/images/bg-hero-mobile.svg);
+  background-color: hsl(193, 100%, 96%);
 }
-.build{
-    @media (1024px <= width){
-     align-self: flex-start;
-     padding: 50px;
-    
-    }
+.top-contenido {
+  display: block;
+  @media (1024px <= width) {
+    display: flex;
+  }
 }
-.subtitle{
-    margin-top: 50px;
-    padding: 28px;
-    font-size: 27px;
-    line-height: 32px;
-    text-align: center;
-    @media (1024px <= width){
-       text-align: start;
-       font-size: 35px;
-       line-height: 45px;
-       padding: 0px;
-       padding-top: 60px;
-       
-       
-    }
-  
+.build {
+  @media (1024px <= width) {
+    align-self: flex-start;
+    padding: 50px;
+  }
 }
-.text{
-    line-height: 25px;
-    display: block;
-    font-size: 18px;
-    padding: 20px;
-    text-align: center;
-    @media (1024px <= width){
-       text-align: start;
-       line-height: 23px;
-       font-size: 17px;
-       padding: 1px;
-       margin-top: 10px; 
-       
-       
-    }
-  
-}
-.boton{
-    margin-left: 30px;
-    width: 300px;
-    height: 60px;
-    border-radius: 30px ;
-    color: white;
-    font-size: 18px;
-    margin: 30px 52px;
-    text-align: center;
-    background-color: hsl(322, 100%, 66%);
-    border: none;
-    @media (1024px <= width){
-       align-self: flex-end;
-       margin-left: 0;
-    }
-}
-.boton:hover{
-    background-color:rgb(255, 0, 149);
-}
-.medio{
-    padding-top: 50px;
-    display: block;
-    background-color: rgb(255, 255, 255);
-    margin-top: 20px;
-
-.text1{
-    display: block;
-    margin-top: 50px;
-    @media (1024px <= width){
-    padding: 30px;
+.subtitle {
+  margin-top: 50px;
+  padding: 28px;
+  font-size: 27px;
+  line-height: 32px;
+  text-align: center;
+  @media (1024px <= width) {
     text-align: start;
-    width: 500px;
-    height: 200px;
+    font-size: 35px;
+    line-height: 45px;
+    padding: 0px;
+    padding-top: 60px;
+  }
+}
+.text {
+  line-height: 25px;
+  display: block;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  @media (1024px <= width) {
+    text-align: start;
+    line-height: 23px;
+    font-size: 17px;
+    padding: 1px;
+    margin-top: 10px;
+  }
+}
+.boton {
+  margin-left: 30px;
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  margin: 30px 52px;
+  text-align: center;
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 3px 3px 5px #48529944;
+  border: none;
+  @media (1024px <= width) {
+    align-self: flex-end;
+    margin-left: 0;
+  }
+}
+.boton:hover {
+  background-color: rgb(255, 0, 149);
+}
+.medio {
+  padding-top: 50px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+
+  .text1 {
+    display: block;
+    margin-top: 50px;
+    @media (1024px <= width) {
+      padding: 30px;
+      text-align: start;
+      width: 500px;
+      height: 200px;
     }
+  }
+  .grow {
+    @include chart();
+  }
+  .flowing {
+    @include chart();
+  }
+  .your {
+    @include chart();
+  }
 }
-.grow{
-@include chart()
+.grow {
+  img {
+    @media (1024px <= width) {
+      order: 1;
+    }
+  }
 }
-.flowing{
-@include chart()
-}
-.your{
-@include chart()
-}
-}
-
-
-
-   
+.your {
+  img {
+    @media (1024px <= width){
+        order: 1;
+    }
+  }}

@@ -112,6 +112,7 @@
   margin: 30px 52px;
   text-align: center;
   background-color: hsl(322deg, 100%, 66%);
+  box-shadow: 3px 3px 5px rgba(72, 82, 153, 0.2666666667);
   border: none;
 }
 @media (1024px <= width) {
@@ -279,6 +280,18 @@
   }
 }
 
+@media (1024px <= width) {
+  .grow img {
+    order: 1;
+  }
+}
+
+@media (1024px <= width) {
+  .your img {
+    order: 1;
+  }
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -290,7 +303,7 @@ body {
   width: -moz-fit-content;
   width: fit-content;
 }
-@media (1024px <= width) {
+@media (desktop <= width) {
   body {
     width: 100vw;
   }
@@ -300,6 +313,21 @@ body {
   margin-top: 250px;
   color: white;
   background-color: #001C24;
+}
+@media (1024px <= width) {
+  .footer {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media (1024px <= width) {
+  .footer-1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto auto;
+  }
 }
 
 .escala {
@@ -312,6 +340,15 @@ body {
   z-index: 50;
   margin-top: 150px;
   position: absolute;
+  font-weight: 700;
+}
+@media (1024px <= width) {
+  .escala {
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 700px;
+    height: 200px;
+  }
 }
 
 .escala-1 {
@@ -328,13 +365,28 @@ body {
   font-size: 18px;
   text-align: center;
   background-color: hsl(322deg, 100%, 66%);
+  box-shadow: 3px 3px 5px rgba(72, 82, 153, 0.2666666667);
   border: none;
   z-index: 30;
+}
+@media (1024px <= width) {
+  .escala-1 button {
+    width: 300px;
+    height: 60px;
+  }
 }
 .escala-1 h4 {
   font-weight: 700;
   font-size: 18px;
   color: rgb(0, 0, 0);
+}
+@media (1024px <= width) {
+  .escala-1 h4 {
+    font-size: 28px;
+  }
+}
+.escala-1 button:hover {
+  background-color: hsla(322deg, 99%, 50%, 0.986);
 }
 
 .rei img {
@@ -343,30 +395,60 @@ body {
   background-color: white;
   margin-top: 150px;
 }
+@media (1024px <= width) {
+  .rei img {
+    margin-top: 200px;
+    width: 200px;
+    height: 40px;
+    margin-left: 75px;
+  }
+}
 
 .datos {
-  margin-left: 10px;
+  margin-left: 0px;
   margin-top: 15px;
+  display: block;
+  padding: 0px;
+}
+.datos .datos__1 {
   display: flex;
-  padding: 7px;
+  margin: 5px;
+  margin-top: 10px;
+}
+@media (1024px <= width) {
+  .datos .datos__1 {
+    margin-top: 18px;
+  }
 }
 .datos img {
   margin-top: 7px;
   width: 20px;
   height: 20px;
+  margin-left: 3px;
 }
 .datos p {
   color: #F1F3F4;
   font-size: 17px;
   line-height: 30px;
-  padding-left: 7px;
   padding-right: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
+}
+@media (1024px <= width) {
+  .datos {
+    display: block;
+  }
 }
 
 .datos-1 {
   margin-top: 25px;
   margin-left: 20px;
+}
+@media (1024px <= width) {
+  .datos-1 ul {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 50px 50px;
+  }
 }
 .datos-1 ul li {
   list-style: none;
@@ -374,10 +456,49 @@ body {
   color: hsl(200deg, 12%, 95%);
 }
 
+@media (1024px <= width) {
+  ul li:nth-child(2) {
+    grid-column: 1;
+  }
+}
+
+@media (1024px <= width) {
+  ul li:nth-child(3) {
+    grid-column: 1 span/2;
+  }
+}
+
+@media (1024px <= width) {
+  ul li:nth-child(4) {
+    grid-row: 1/4;
+    grid-column: 2/2;
+  }
+}
+
+@media (1024px <= width) {
+  ul li:nth-child(5) {
+    grid-column: 2/2;
+    grid-row: 2/3;
+  }
+}
+
+@media (1024px <= width) {
+  ul li:nth-child(6) {
+    grid-column: 2;
+    grid-row: 3/3;
+  }
+}
+
 .end {
   margin-top: 80px;
   text-align: center;
   padding-bottom: 60px;
+}
+@media (1024px <= width) {
+  .end {
+    margin-top: 20px;
+    text-align: start;
+  }
 }
 .end img {
   margin: 7px;
@@ -392,4 +513,9 @@ body {
   font-size: 15px;
   padding: 15px;
   color: hsl(200deg, 12%, 95%);
+}
+@media (1024px <= width) {
+  .end p {
+    margin-top: 140px;
+  }
 }/*# sourceMappingURL=estilo.css.map */
