@@ -37,6 +37,15 @@
     box-shadow: 1px 1px 5px #48529960;
   }
 }
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+
+  @media (1020px <= width) {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;

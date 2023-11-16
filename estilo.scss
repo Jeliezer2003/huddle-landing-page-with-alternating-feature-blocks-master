@@ -41,7 +41,8 @@ body {
   position: absolute;
   font-weight: 700;
   @media (1024px <= width) {
-    margin-left: 300px;
+    justify-content: center;
+    margin-left: 288 px;
     margin-top: 100px;
     width: 700px;
     height: 200px;
