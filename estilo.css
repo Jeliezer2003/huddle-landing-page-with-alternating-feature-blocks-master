@@ -16,7 +16,6 @@
     margin-left: 10px;
   }
 }
-
 .try {
   background-color: rgb(255, 255, 255);
   border-radius: 25px;
@@ -312,7 +311,7 @@ body {
 .footer {
   margin-top: 250px;
   color: white;
-  background-color: #001C24;
+  background-color: #001c24;
 }
 @media (1024px <= width) {
   .footer {
@@ -427,7 +426,7 @@ body {
   margin-left: 3px;
 }
 .datos p {
-  color: #F1F3F4;
+  color: #f1f3f4;
   font-size: 17px;
   line-height: 30px;
   padding-right: 10px;
@@ -518,4 +517,4 @@ body {
   .end p {
     margin-top: 140px;
   }
-}/*# sourceMappingURL=estilo.css.map */
+} /*# sourceMappingURL=estilo.css.map */

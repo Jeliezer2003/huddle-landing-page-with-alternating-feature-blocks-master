@@ -175,7 +175,8 @@
 }
 .your {
   img {
-    @media (1024px <= width){
-        order: 1;
+    @media (1024px <= width) {
+      order: 1;
     }
-  }}
+  }
+}
