@@ -49,6 +49,7 @@
   justify-content: space-between;
   padding: 20px;
   text-align: center;
+  
 }
 .logo {
   margin-top: 50px;
@@ -86,11 +87,15 @@
 .top {
   background-image: url(/images/bg-hero-mobile.svg);
   background-color: hsl(193, 100%, 96%);
+  @media (1024px <= width) {
+    margin: auto;
+  }
 }
 .top-contenido {
   display: block;
   @media (1024px <= width) {
     display: flex;
+    
   }
 }
 .build {
@@ -152,6 +157,10 @@
   display: block;
   background-color: rgb(255, 255, 255);
   margin-top: 20px;
+  @media (1024px <= width) {
+    max-width: 1500px;
+    margin: auto;
+  }
 
   .text1 {
     display: block;

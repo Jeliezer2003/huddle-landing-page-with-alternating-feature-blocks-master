@@ -7,8 +7,8 @@
 }
 body {
   width: fit-content;
-  @media (desktop <= width) {
-    width: 100vw;
+  @media (1020px <= width) {
+    width: 100%;
   }
 }
 

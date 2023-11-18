@@ -57,6 +57,11 @@
   background-image: url(/images/bg-hero-mobile.svg);
   background-color: hsl(193deg, 100%, 96%);
 }
+@media (1024px <= width) {
+  .top {
+    margin: auto;
+  }
+}
 
 .top-contenido {
   display: block;
@@ -137,6 +142,12 @@
   display: block;
   background-color: rgb(255, 255, 255);
   margin-top: 20px;
+}
+@media (1024px <= width) {
+  .medio {
+    max-width: 1500px;
+    margin: auto;
+  }
 }
 .medio .text1 {
   display: block;
@@ -309,9 +320,9 @@ body {
   width: -moz-fit-content;
   width: fit-content;
 }
-@media (desktop <= width) {
+@media (1020px <= width) {
   body {
-    width: 100vw;
+    width: 100%;
   }
 }
 
